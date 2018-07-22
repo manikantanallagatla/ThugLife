@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47D846EA21044E0900119195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D846E921044E0900119195 /* AppDelegate.swift */; };
+		47D846EC21044E0900119195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D846EB21044E0900119195 /* ViewController.swift */; };
+		47D846EF21044E0900119195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D846ED21044E0900119195 /* Main.storyboard */; };
+		47D846F121044E0C00119195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D846F021044E0C00119195 /* Assets.xcassets */; };
+		47D846F421044E0C00119195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D846F221044E0C00119195 /* LaunchScreen.storyboard */; };
+		47D846FF21044E0C00119195 /* ThugLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D846FE21044E0C00119195 /* ThugLifeTests.swift */; };
+		47D8470A21044E0C00119195 /* ThugLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8470921044E0C00119195 /* ThugLifeUITests.swift */; };
+		47D8471E2104612D00119195 /* thug_life2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D8471D2104612D00119195 /* thug_life2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47D846FB21044E0C00119195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D846DE21044E0900119195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D846E521044E0900119195;
+			remoteInfo = ThugLife;
+		};
+		47D8470621044E0C00119195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D846DE21044E0900119195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D846E521044E0900119195;
+			remoteInfo = ThugLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47D846E621044E0900119195 /* ThugLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThugLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D846E921044E0900119195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47D846EB21044E0900119195 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47D846EE21044E0900119195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47D846F021044E0C00119195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47D846F321044E0C00119195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47D846F521044E0C00119195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D846FA21044E0C00119195 /* ThugLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThugLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D846FE21044E0C00119195 /* ThugLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThugLifeTests.swift; sourceTree = "<group>"; };
+		47D8470021044E0C00119195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D8470521044E0C00119195 /* ThugLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThugLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D8470921044E0C00119195 /* ThugLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThugLifeUITests.swift; sourceTree = "<group>"; };
+		47D8470B21044E0C00119195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D8471D2104612D00119195 /* thug_life2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thug_life2.png; path = ../../../../Downloads/thug_life2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D846E321044E0900119195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D846F721044E0C00119195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D8470221044E0C00119195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D846DD21044E0900119195 = {
+			isa = PBXGroup;
+			children = (
+				47D846E821044E0900119195 /* ThugLife */,
+				47D846FD21044E0C00119195 /* ThugLifeTests */,
+				47D8470821044E0C00119195 /* ThugLifeUITests */,
+				47D846E721044E0900119195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47D846E721044E0900119195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47D846E621044E0900119195 /* ThugLife.app */,
+				47D846FA21044E0C00119195 /* ThugLifeTests.xctest */,
+				47D8470521044E0C00119195 /* ThugLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47D846E821044E0900119195 /* ThugLife */ = {
+			isa = PBXGroup;
+			children = (
+				47D8471D2104612D00119195 /* thug_life2.png */,
+				47D846E921044E0900119195 /* AppDelegate.swift */,
+				47D846EB21044E0900119195 /* ViewController.swift */,
+				47D846ED21044E0900119195 /* Main.storyboard */,
+				47D846F021044E0C00119195 /* Assets.xcassets */,
+				47D846F221044E0C00119195 /* LaunchScreen.storyboard */,
+				47D846F521044E0C00119195 /* Info.plist */,
+			);
+			path = ThugLife;
+			sourceTree = "<group>";
+		};
+		47D846FD21044E0C00119195 /* ThugLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				47D846FE21044E0C00119195 /* ThugLifeTests.swift */,
+				47D8470021044E0C00119195 /* Info.plist */,
+			);
+			path = ThugLifeTests;
+			sourceTree = "<group>";
+		};
+		47D8470821044E0C00119195 /* ThugLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47D8470921044E0C00119195 /* ThugLifeUITests.swift */,
+				47D8470B21044E0C00119195 /* Info.plist */,
+			);
+			path = ThugLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47D846E521044E0900119195 /* ThugLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D8470E21044E0C00119195 /* Build configuration list for PBXNativeTarget "ThugLife" */;
+			buildPhases = (
+				47D846E221044E0900119195 /* Sources */,
+				47D846E321044E0900119195 /* Frameworks */,
+				47D846E421044E0900119195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThugLife;
+			productName = ThugLife;
+			productReference = 47D846E621044E0900119195 /* ThugLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47D846F921044E0C00119195 /* ThugLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D8471121044E0C00119195 /* Build configuration list for PBXNativeTarget "ThugLifeTests" */;
+			buildPhases = (
+				47D846F621044E0C00119195 /* Sources */,
+				47D846F721044E0C00119195 /* Frameworks */,
+				47D846F821044E0C00119195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D846FC21044E0C00119195 /* PBXTargetDependency */,
+			);
+			name = ThugLifeTests;
+			productName = ThugLifeTests;
+			productReference = 47D846FA21044E0C00119195 /* ThugLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47D8470421044E0C00119195 /* ThugLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D8471421044E0C00119195 /* Build configuration list for PBXNativeTarget "ThugLifeUITests" */;
+			buildPhases = (
+				47D8470121044E0C00119195 /* Sources */,
+				47D8470221044E0C00119195 /* Frameworks */,
+				47D8470321044E0C00119195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D8470721044E0C00119195 /* PBXTargetDependency */,
+			);
+			name = ThugLifeUITests;
+			productName = ThugLifeUITests;
+			productReference = 47D8470521044E0C00119195 /* ThugLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47D846DE21044E0900119195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Manikanta Nallagatla";
+				TargetAttributes = {
+					47D846E521044E0900119195 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					47D846F921044E0C00119195 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 47D846E521044E0900119195;
+					};
+					47D8470421044E0C00119195 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 47D846E521044E0900119195;
+					};
+				};
+			};
+			buildConfigurationList = 47D846E121044E0900119195 /* Build configuration list for PBXProject "ThugLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47D846DD21044E0900119195;
+			productRefGroup = 47D846E721044E0900119195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D846E521044E0900119195 /* ThugLife */,
+				47D846F921044E0C00119195 /* ThugLifeTests */,
+				47D8470421044E0C00119195 /* ThugLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47D846E421044E0900119195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D846F421044E0C00119195 /* LaunchScreen.storyboard in Resources */,
+				47D8471E2104612D00119195 /* thug_life2.png in Resources */,
+				47D846F121044E0C00119195 /* Assets.xcassets in Resources */,
+				47D846EF21044E0900119195 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D846F821044E0C00119195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D8470321044E0C00119195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47D846E221044E0900119195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D846EC21044E0900119195 /* ViewController.swift in Sources */,
+				47D846EA21044E0900119195 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D846F621044E0C00119195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D846FF21044E0C00119195 /* ThugLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D8470121044E0C00119195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D8470A21044E0C00119195 /* ThugLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47D846FC21044E0C00119195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D846E521044E0900119195 /* ThugLife */;
+			targetProxy = 47D846FB21044E0C00119195 /* PBXContainerItemProxy */;
+		};
+		47D8470721044E0C00119195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D846E521044E0900119195 /* ThugLife */;
+			targetProxy = 47D8470621044E0C00119195 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47D846ED21044E0900119195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D846EE21044E0900119195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47D846F221044E0C00119195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D846F321044E0C00119195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47D8470C21044E0C00119195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47D8470D21044E0C00119195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47D8470F21044E0C00119195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95A58LB25Y;
+				INFOPLIST_FILE = ThugLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manikant.ThugLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47D8471021044E0C00119195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95A58LB25Y;
+				INFOPLIST_FILE = ThugLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manikant.ThugLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47D8471221044E0C00119195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95A58LB25Y;
+				INFOPLIST_FILE = ThugLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manikant.ThugLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThugLife.app/ThugLife";
+			};
+			name = Debug;
+		};
+		47D8471321044E0C00119195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95A58LB25Y;
+				INFOPLIST_FILE = ThugLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manikant.ThugLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThugLife.app/ThugLife";
+			};
+			name = Release;
+		};
+		47D8471521044E0C00119195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95A58LB25Y;
+				INFOPLIST_FILE = ThugLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manikant.ThugLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThugLife;
+			};
+			name = Debug;
+		};
+		47D8471621044E0C00119195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95A58LB25Y;
+				INFOPLIST_FILE = ThugLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manikant.ThugLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThugLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47D846E121044E0900119195 /* Build configuration list for PBXProject "ThugLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D8470C21044E0C00119195 /* Debug */,
+				47D8470D21044E0C00119195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D8470E21044E0C00119195 /* Build configuration list for PBXNativeTarget "ThugLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D8470F21044E0C00119195 /* Debug */,
+				47D8471021044E0C00119195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D8471121044E0C00119195 /* Build configuration list for PBXNativeTarget "ThugLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D8471221044E0C00119195 /* Debug */,
+				47D8471321044E0C00119195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D8471421044E0C00119195 /* Build configuration list for PBXNativeTarget "ThugLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D8471521044E0C00119195 /* Debug */,
+				47D8471621044E0C00119195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47D846DE21044E0900119195 /* Project object */;
+}
